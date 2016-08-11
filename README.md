@@ -40,6 +40,12 @@ $ cd ..
 $ cp -r xhprof_html /home/{yourname}/lkk/public/pages/
 $ cp -r xhprof_lib /home/{yourname}/lkk/public/pages/
 ```
+### reload nginx
+```
+$ vi /home/tengine/conf/nginx.conf
+复制nginx.conf的内容进去。
+$ nginx -s reload
+```
 ### test && get profling data
 ```
 在需要测试的地方加以下代码：
