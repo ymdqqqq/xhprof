@@ -44,7 +44,9 @@ $ cp -r xhprof_lib /home/{yourname}/lkk/public/pages/
 ```
 在需要测试的地方加以下代码：
 xhprof_enable();
+
 {your testing code}
+
 $data = xhprof_disable();
 require "/data/{yourname}/lkk/public/pages/xhprof_lib/utils/xhprof_lib.php";
 require "/data/{yourname}/lkk/public/pages/xhprof_lib/utils/xhprof_runs.php";
