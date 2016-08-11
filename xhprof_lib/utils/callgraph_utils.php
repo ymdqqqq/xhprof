@@ -118,7 +118,7 @@ function xhprof_generate_image_by_dot($dot_script, $type) {
 
     $err = stream_get_contents($pipes[2]);
     if (!empty($err)) {
-      print "failed to execute cmd: \"$cmd\". stderr: `$err'\n";
+      print "请先安装graphviz:yum install graphviz";
       exit;
     }
 
