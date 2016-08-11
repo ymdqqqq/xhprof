@@ -12,7 +12,7 @@ Please do not use this in an production env.
 $ git clone https://github.com/ymdqqqq/xhprof.git
 $ git checkout php7
 $ cd xhprof/extension
-
+```
 ### Compile in Linux
 ```
 $ /home/php-7.0.9/bin/phpize
